@@ -1,0 +1,44 @@
+/* Cambia lo stile della navbar */
+.nav-link {
+    color: #9b9b9b ; /* Cambia il colore dei link della navbar */
+    font-weight: bold; /* Rende il testo in grassetto */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Sottolinea il link al passaggio del mouse */
+}
+.alert-info {
+    background: linear-gradient(
+            to right,
+            #ff0000 18%,       /* Rosso per la striscia verticale sinistra */
+            #ff0000 20%,
+            transparent 20%
+    ),
+    linear-gradient(
+            to bottom,
+            #00732f 31%,       /* Verde */
+            #00732f 33.33%,
+            #ffffff 33.33%,
+            #ffffff 65%,       /* Bianco */
+            #ffffff 66.66%,
+            #000000 66.66%     /* Nero */
+    );
+    background-size: 100% 100%;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+
+
+/* Personalizza la tabella */
+table {
+    border: 3px solid black;
+    border-collapse: collapse;
+    border-color: black !important;
+}
+
